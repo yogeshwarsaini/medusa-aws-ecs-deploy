@@ -1,0 +1,37 @@
+{
+  "family": "medusa-task",
+  "containerDefinitions": [
+    {
+      "name": "medusa",
+      "image": "yogismash/medusa:latest",
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 9000,
+          "hostPort": 9000,
+          "protocol": "tcp"
+        }
+      ],
+      "environment": [
+        {
+          "name": "DATABASE_URL",
+          "value": "postgres://postgres:medusapass123@medusa-postgres-db.c5ye68gcoyiv.ap-south-1.rds.amazonaws.com:5432/medusadb"
+        }
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/medusa",
+          "awslogs-region": "ap-south-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      }
+    }
+  ],
+  "requiresCompatibilities": ["FARGATE"],
+  "networkMode": "awsvpc",
+  "cpu": "512",
+  "memory": "1024",
+  "executionRoleArn": "arn:aws:iam::678804053714:role/ecsTaskExecutionRole"
+}
+
