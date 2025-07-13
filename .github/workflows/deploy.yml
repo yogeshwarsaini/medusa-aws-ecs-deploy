@@ -38,4 +38,4 @@ jobs:
           task-definition: ./infra/task-def.json
           service: medusa-service
           cluster: medusa-ecs-cluster
-          wait-for-service-stability: true
+          wait-for-service-stability: false
