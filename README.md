@@ -40,7 +40,7 @@ CI/CD pipeline (`deploy.yml`) performs:
 
 📸 Screenshots 
  ### ✅ GitHub Actions Success
-![GitHub Actions](C:\Users\yogis\Videos\medusa-aws-deploy\screenshots\Screenshot 2025-07-13 193851.png)
+![GitHub Actions](./screenshots/github-actions-success.png)
 
 ### ✅ ECS Cluster
 ![ECS Cluster](./screenshots/ecs-cluster.png)
