@@ -40,23 +40,16 @@ CI/CD pipeline (`deploy.yml`) performs:
 
 📸 Screenshots 
  ### ✅ GitHub Actions Success
-
-![GitHub Actions](C:\Users\yogis\Pictures\Screenshots\Screenshot 2025-07-13 193851.png)
-
----
+![GitHub Actions](./screenshots/github-actions-success.png)
 
 ### ✅ ECS Cluster
+![ECS Cluster](./screenshots/ecs-cluster.png)
 
-![ECS Cluster](C:\Users\yogis\Pictures\Screenshots\Screenshot 2025-07-13 193943.png)
+### ✅ Terraform Output
+![Terraform Output](./screenshots/terraform-output.png)
 
----
-
-### ✅ Terraform Apply Output
-
-![Terraform Apply](C:\Users\yogis\Pictures\Screenshots\Screenshot 2025-07-13 200805.png)
-
-### ✅ ALB DNS - 502 Error (Medusa Backend Reached)
-![ALB Error](C:\Users\yogis\Pictures\Screenshots\Screenshot 2025-07-13 201022.png)
+### ✅ ALB 502 Error (Backend Reached)
+![ALB Error](./screenshots/alb-error.png)
 
 ## 🔐 Secrets Used in GitHub Repo
 
