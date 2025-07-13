@@ -1,4 +1,4 @@
-# Medusa AWS ECS Deploy
+# Medusa AWS ECS Deploy.
 ✅ Deployment test commit for CI/CD check
 
 This project deploys the Medusa.js open-source headless commerce backend to AWS using:
