@@ -41,26 +41,22 @@ CI/CD pipeline (`deploy.yml`) performs:
 📸 Screenshots 
  ### ✅ GitHub Actions Success
 
-![GitHub Actions](<img width="977" height="562" alt="image" src="https://github.com/user-attachments/assets/ba1ee72c-716e-40c9-8f51-24e6482fe134" />
-)
+![GitHub Actions](C:\Users\yogis\Pictures\Screenshots\Screenshot 2025-07-13 193851.png)
 
 ---
 
 ### ✅ ECS Cluster
 
-![ECS Cluster](<img width="966" height="811" alt="image" src="https://github.com/user-attachments/assets/faf4ccc6-3e8a-4fd7-962a-dec0155173c3" />
-)
+![ECS Cluster](C:\Users\yogis\Pictures\Screenshots\Screenshot 2025-07-13 193943.png)
 
 ---
 
 ### ✅ Terraform Apply Output
 
-![Terraform Apply](<img width="706" height="242" alt="image" src="https://github.com/user-attachments/assets/be767c2f-636b-4a86-af63-b2a7bfa94e86" />
-)
+![Terraform Apply](C:\Users\yogis\Pictures\Screenshots\Screenshot 2025-07-13 200805.png)
 
 ### ✅ ALB DNS - 502 Error (Medusa Backend Reached)
-![ALB Error](<img width="1141" height="621" alt="Screenshot 2025-07-13 201022" src="https://github.com/user-attachments/assets/6c61ca0f-5193-4a87-a40a-9efe05942fe3" />
-)
+![ALB Error](C:\Users\yogis\Pictures\Screenshots\Screenshot 2025-07-13 201022.png)
 
 ## 🔐 Secrets Used in GitHub Repo
 
